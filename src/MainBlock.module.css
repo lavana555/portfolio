@@ -1,0 +1,42 @@
+.MainBlock {
+height: 100vh;
+background-color:rgb(165, 136, 42);
+display:flex;
+justify-content: center;
+
+}
+
+.container {
+    border: 1px solid; 
+    width:  80%;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+
+    
+}
+.block {
+    justify-content: space-around;
+    display: flex;
+    border: 1px solid;
+    flex-wrap: wrap;
+
+}
+
+.greeting {
+    
+    /* border: 1px solid; */
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+
+.photo {
+width: 150px;
+height: 250px;
+border: 1px solid;
+background-color: cornflowerblue;
+
+
+}

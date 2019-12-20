@@ -1,0 +1,27 @@
+.Contacts {
+height: 30vh;
+background-color:rgb(245, 181, 6);
+display:flex;
+justify-content: center;
+justify-content: space-evenly;
+flex-wrap: wrap;
+}
+
+.container {
+    border: 1px solid; 
+    width:  80%;
+        display:flex;
+        justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.forms {
+    
+    width: 60%;
+    display:flex; 
+    border: 1px solid;
+    flex-direction: column;
+    flex-wrap: wrap;
+}

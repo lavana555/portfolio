@@ -1,0 +1,29 @@
+.header {
+height: 70px;
+background-color:rgb(31, 13, 13);
+display:flex;
+justify-content: center;
+
+
+}
+
+.container {
+ border: 1px solid; 
+width:  80%;
+display:flex;
+justify-content: flex-end;
+align-items: center;
+
+}
+
+
+
+/* .links {
+width:300px;
+display: flex;
+justify-content: space-between;
+
+
+
+
+} */

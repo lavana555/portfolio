@@ -1,0 +1,13 @@
+.block {
+    width: 380px;
+    /* height: 100%; */
+    border: 1px solid;
+    background-color: cornflowerblue;
+    display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        height: 360px;
+    }
+    
