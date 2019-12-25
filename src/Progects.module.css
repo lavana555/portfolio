@@ -2,9 +2,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
-height: 100vh;
+/* height: 100vh; */
 background-color:rgb(224, 45, 200);
 flex-wrap: wrap;
+min-height: 100vh;
 
 }
 
