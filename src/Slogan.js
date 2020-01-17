@@ -6,13 +6,16 @@ function Slogan() {
   return (
     <div className={styles.Slogan}>
       <div className={styles.container}>
-<div className={styles.SloganHeader}>Рассматриваю варианты
- удаленнной работы</div>
-<div> 
-<button className={styles.Sloganbutton}>Нанять меня</button>
-</div>
+        <div className={styles.SloganHeader}>
+ <h2 className={styles.title}>Рассматриваю варианты
+ удаленнной работы</h2>
+        <div className={styles.line}></div>
+ </div>
+        <div>
+          <button className={styles.button}>Нанять меня</button>
+        </div>
       </div>
-      
+
     </div>
   );
 }

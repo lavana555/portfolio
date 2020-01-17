@@ -6,12 +6,15 @@ function Contacts() {
   return (
     <div className={styles.Contacts}>
       <div className={styles.container}>
-        <div className={styles.title}>contacts</div>
+        <div className={styles.contactTitle}>
+        <h2 className={styles.title}>contacts</h2>
+        <div className={styles.line}></div>
+        </div>
       
       <form className={styles.forms}>
         <input type="text" placeholder="name"/>
         <input type="text"  placeholder="E-mail"/>
-        <textarea placeholder="Message"></textarea>
+        <textarea className={styles.messageArea} placeholder="Message"></textarea>
         
         </form>
         <div>

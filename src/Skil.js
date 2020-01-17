@@ -1,17 +1,15 @@
 import React from 'react';
 import styles from './Skil.module.css';
 
-function Skil() {
+function Skil(props) {
     return (
         
 <div className={styles.skil}>
 <div className={styles.skilHeader}>
-  <div className={styles.headerImg}>img
-  <img src=" "  alt=""/>
-  </div>
-  <div className={styles.Headerblock}>react</div>
+  <img className={styles.imgage}  src={props.picture} />      
 </div>
-<div className={styles.skilFooter}> подробное описание навыка</div>
+    <span><h3>{props.title}</h3></span>
+    <div className={styles.description}>{props.description}</div>
 </div>
     )
 };

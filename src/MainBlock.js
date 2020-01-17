@@ -8,12 +8,12 @@ function MainBlock() {
     <div className={styles.container}>
       <div className={styles.block}>
       <div className={styles.greeting}> 
-        <span>привет меня зовут </span>
-        <span>Никита Тимофеев</span>
-        <span>я frontend-developer</span>
+        <span>привет  </span>
+        <span> я  Никита <span>Тимофеев</span> </span>
+       <h1> Я front-end developer</h1>
         </div>
       <div className={styles.photo}>
-<img src=" "  alt=""/>
+<div className={styles.image}></div>
 </div>
       </div>
     </div>

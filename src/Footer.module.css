@@ -1,6 +1,6 @@
 .Footer {
-    height: 10vh;
-    background-color:rgb(102, 26, 224);
+    min-height: 100%;
+    background-color:#252527;
     display:flex;
     justify-content: space-evenly;
     flex-direction: column;
@@ -9,17 +9,42 @@
     }
 
     .container {
-        border: 1px solid; 
+        /* border: 1px solid;  */
         width:  80%;
-            display:flex;
-            justify-content: space-evenly;
+        display:flex;
+        justify-content: space-evenly;
         flex-direction: column;
         align-items: center;
         flex-wrap: wrap;
     }
     .blockitems {
+        width: 500px;
         display: flex;
-        border: 1px solid;
+        /* border: 1px solid; */
         justify-content: space-between;
+
+    }
+
+
+    .blockitem {
+max-width:50px;
+max-height:50px;
+background-color: cadetblue;
 flex-wrap: wrap;
+
+    }
+
+    .block {
+        text-align: center;
+    }
+    .Footerimage {
+        max-width:50px;
+max-height:50px;
+    }
+    
+
+    @media screen and (max-width:626px) {
+        .blockitems {
+            width: 100%;
+        }
     }
