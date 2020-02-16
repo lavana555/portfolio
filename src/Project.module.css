@@ -1,95 +1,93 @@
 .block {
-       /* border: 1px solid; */
-       max-height: 450px;
-max-width: 450px;
-       display: flex;
-           flex-direction: column;
-           justify-content: inherit;
-           align-items: center;
+    /* border: 1px solid; */
+    max-height: 450px;
+    max-width: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: inherit;
+    align-items: center;
+}
+
+
+.photo {
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*width: 100%;*/
+
+
+
+}
+
+
+.description {
+    display: flex;
+    align-items: center;
+}
+
+.imgage {
+    position: absolute;
+    max-width: 300px;
+
+}
+
+.butn {
+    position: relative;
+}
+
+
+.button {
+
+    display: block;
+    font-family: M PLUS Rounded\ 1c, sans-serif;
+    font-weight: 400;
+    font-stretch: normal;
+    font-size: 14px;
+    line-height: 1.8;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 1px;
+    padding: 7px 20px;
+    cursor: pointer;
+    -webkit-transition: all .4s ease-in-out 0s;
+    transition: all .4s ease-in-out 0s;
+    background: transparent;
+    color: #fff;
+    max-width: 170px;
+    margin: 15px auto;
+    z-index: 0;
+    text-align: center;
+    border-radius: 0;
+    width: 100%;
+    border: none;
+    position: relative;
+}
+
+.button::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 10px;
+    width: 50%;
+    background: #4e93e6;
+    z-index: -1;
+    -webkit-transition: all .2s ease-in-out 0s;
+    transition: all .2s ease-in-out 0s;
+    margin: 0 auto;
+
+}
+
+.button:hover:after {
+    height: 100%;
+    width: 100%;
+}
+
+
+@media screen and (max-width: 631px) {
+    .block {
+        width: 100%
     }
-
-      
-
-
-    .photo{
-        height: 250px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        
-
-    }
-  
-
-    .description{
-        display: flex;
-        align-items: center;
-    }
-
-    .imgage{
-        position: absolute;
-        max-width:300px;
-        
-        }
-        .butn {
-        position: relative;
-        }
-
-
-
-        .button{
-    
-            display: block;
-                font-family: M PLUS Rounded\ 1c,sans-serif;
-                font-weight: 400;
-                font-stretch: normal;
-                font-size: 14px;
-                line-height: 1.8;
-                text-transform: uppercase;
-                text-decoration: none;
-                letter-spacing: 1px;
-                padding: 7px 20px;
-                cursor: pointer;
-                -webkit-transition: all .4s ease-in-out 0s;
-                transition: all .4s ease-in-out 0s;
-                background: transparent;
-                color: #fff;
-                max-width: 170px;
-                margin: 15px auto;
-                z-index: 0;
-                text-align: center;
-                border-radius: 0;
-                width: 100%;
-                border: none;
-                position: relative;
-            }
-            
-            .button::after{
-                content: "";
-                position: absolute;
-                left: 0;
-                right: 0;
-                bottom: 0;
-                height: 10px;
-                width: 50%;
-                background: #4e93e6;
-                z-index: -1;
-                -webkit-transition: all .2s ease-in-out 0s;
-                transition: all .2s ease-in-out 0s;
-                margin: 0 auto;
-                
-            }
-            
-            .button:hover:after {
-                height: 100%;
-                width: 100%;
-            }
-            
-
-
-
-    @media screen and (max-width:631px) {
-        .block {
-           width: 100%
-        }
-    }
+}

@@ -6,9 +6,11 @@ function Project (props) {
 
 
         <div className={styles.block}>
-          <div className={styles.photo}>
-          <img className={styles.imgage}  src={props.picture} /> 
-         <div className={styles.butn}> <button className={styles.button}>смотреть</button></div> 
+          <div className={styles.photo} style={{backgroundImage:`URL(${props.img})`}}>
+          {/*<img className={styles.imgage}  src={props.picture} />*/}
+
+
+         <a className={styles.butn}> <button className={styles.button}>смотреть</button></a>
         </div>
         
         <span><h3>{props.title}</h3></span>

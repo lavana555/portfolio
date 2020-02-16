@@ -12,7 +12,7 @@ let state={
    
   ]
 }
-const Projectels=state.projects.map(Projectel=><Project title={Projectel.title} description={Projectel.description} picture={Projectel.picture} />)
+const Projectels=state.projects.map(Projectel=><Project title={Projectel.title} description={Projectel.description} picture={Projectel.picture} img={Projectel.picture} />)
 function Projects() {
   return (
     <div className={styles.Projects}>

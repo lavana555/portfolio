@@ -1,43 +1,60 @@
 .skil {
-    /* border: 1px solid; */
-max-height: 350px;
-max-width: 350px;
-display: flex;
+    max-height: 450px;
+    max-width: 450px;
+    display: flex;
     flex-direction: column;
     justify-content: inherit;
     align-items: center;
 
 }
+
+.title{
+
+}
+
+
 .skilHeader {
-    /* width: 100%; */
-    height: 250px;
+    height: 80px;
+    width: 80px;
     display: flex;
     justify-content: center;
     align-items: center;
-    /* background-color:#d670e4; */
-    background-image: image('https://www.pinterest.com/pin/847099011135947834/');
-    /* background-image: ; */
+    background-repeat: no-repeat;
+    background: rgba(255,255,255,0.1);
+    transform: rotate(45deg);
+    margin: 30px;
+}
+.skilHeader img{
+    transform: rotate(-45deg);
+    width:50%
+}
+.svg {
+
 }
 
-.description{
+.description {
     display: flex;
     align-items: center;
+    margin: 30px;
 }
 
 
 .h3 {
     font-size: 20px;
+
+
 }
 
-@media screen and (max-width:625px) {
+@media screen and (max-width: 625px) {
     .skil {
-       width: 100%
+        width: 100%
     }
 }
 
 
-.imgage{
+.imgage {
 
-    max-width:200px;
-    
-    }
+    max-width: 200px;
+
+}
+
