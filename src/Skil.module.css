@@ -5,11 +5,18 @@
     flex-direction: column;
     justify-content: inherit;
     align-items: center;
+    margin: 130px 0;
 
 }
 
 .title{
-
+    text-transform: uppercase;
+    margin: 0 0 15px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.2;
+    /*font-family: 'Montserrat',sans-serif;*/
+    /*font-family: 'Josefin Sans', sans-serif;*/
 }
 
 
@@ -22,7 +29,7 @@
     background-repeat: no-repeat;
     background: rgba(255,255,255,0.1);
     transform: rotate(45deg);
-    margin: 30px;
+    margin-bottom: 30px;
 }
 .skilHeader img{
     transform: rotate(-45deg);

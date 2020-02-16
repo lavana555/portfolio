@@ -28,12 +28,12 @@ function Skils() {
         backgroundImage:'reacticon',
       }, img:reacticon},
 
-      {title:"Redux",
+      {title:"HTML",
       description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit,sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
       divStyle:{
         backgroundImage:'url("https://i.pinimg.com/564x/96/c1/ec/96c1ec8ef18a937265c8e44e40280c54.jpg")',
       },img:htmlicon},
-      {title:"Ja native",
+      {title:"CSS",
       description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit,sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
       divStyle:{
         backgroundImage:'url("https://i.pinimg.com/236x/4a/47/7b/4a477b590ed2ab512d7f7cd8f03aa0e0.jpg")',
