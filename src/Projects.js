@@ -9,9 +9,9 @@ import schetchiklogo from "./assets/img/schetchik.png"
 
 let state={
   projects:[
-    {title:"calculator", description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit,sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+    {title:"todolist", description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit,sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
     picture:todolistLogo},
-    {title:"calculator", description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit,sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+    {title:"dogs", description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit,sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
       picture:dogsLogo},
     {title:"counter",description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit,sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",picture:schetchiklogo}
   ]

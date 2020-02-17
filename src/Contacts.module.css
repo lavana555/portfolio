@@ -5,6 +5,7 @@ display:flex;
 justify-content: center;
 justify-content: space-evenly;
 flex-wrap: wrap;
+    padding: 30px;
 }
 
 .container {
@@ -24,10 +25,13 @@ flex-wrap: wrap;
     border: 1px solid;
     flex-direction: column;
     flex-wrap: wrap;
+    padding:  15px;
+    margin: 20px;
    
 }
 .messageArea{
     min-height: 60px;
+    outline: none;
 }
 
 
