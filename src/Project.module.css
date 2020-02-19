@@ -9,7 +9,7 @@
     background-size: cover;
     margin-bottom: 50px;
     height: max-content;
-position: relative;
+/*position: relative;*/
 }
 
 
@@ -19,8 +19,8 @@ position: relative;
     justify-content: center;
     align-items: center;
     background-size: cover;
-    width: 100%
-
+    width: 100%;
+    position: relative
 
 }
 

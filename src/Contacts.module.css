@@ -31,25 +31,39 @@ flex-wrap: wrap;
 .forms input{
     background-color: #252527;
     border: none;
+    font-size: 16px;
     margin-bottom: 10px;
     border-radius: 5px;
     padding: 15px;
     color: white;
 }
 
+form input:focus{
+    /*outline: 2px solid #e6141f;*/
+    outline: 2px solid #4e93e6;
+}
+
+
 .forms textarea {
     background-color: #252527;
+    font-size: 16px;
     border: none;
     margin-bottom: 10px;
     border-radius: 10px;
-    padding: 10px;
+    padding: 15px;
     color: white;
 }
 .forms textarea {
     margin: 0px 0px 10px;
+    font-size: 16px;
     width: 523px;
     height: 274px;
     resize: none
+}
+
+form textarea:focus{
+    /*outline: 2px solid #e6141f;*/
+    outline: 2px solid #4e93e6;
 }
 
 /*.messageArea{*/

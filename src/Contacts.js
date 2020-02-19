@@ -12,9 +12,9 @@ function Contacts() {
         </div>
       
       <form className={styles.forms}>
-        <input type="text" placeholder="name"/>
-        <input type="text"  placeholder="E-mail"/>
-        <textarea className={styles.messageArea} placeholder="Message"></textarea>
+        <input type="text" placeholder="Your Name"/>
+        <input type="text"  placeholder="Your E-mail"/>
+        <textarea className={styles.messageArea} placeholder="Your message"></textarea>
         </form>
         <div>
         <button className={styles.button}>отправить</button>
