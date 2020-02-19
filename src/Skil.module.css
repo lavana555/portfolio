@@ -1,11 +1,12 @@
 .skil {
     max-height: 450px;
-    max-width: 450px;
+    max-width: 270px;
     display: flex;
     flex-direction: column;
     justify-content: inherit;
     align-items: center;
-    margin: 130px 0;
+    /*margin: 130px 0;*/
+    padding: 30px;
 
 }
 
@@ -40,9 +41,12 @@
 }
 
 .description {
+
     display: flex;
     align-items: center;
-    margin: 30px;
+    letter-spacing: 1px;
+    font-size: 16px;
+    line-height: 1.8;
 }
 
 

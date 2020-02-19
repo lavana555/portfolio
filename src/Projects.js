@@ -2,7 +2,7 @@ import React from 'react';
 import styles from './Progects.module.css';
 import Project from './Project';
 import todolistLogo from "./assets/img/todolist.png";
-import dogsLogo from "./assets/img/dogs.png";
+import dogsLogo from "./assets/img/dogs2.png";
 import schetchiklogo from "./assets/img/schetchik.png"
 
 

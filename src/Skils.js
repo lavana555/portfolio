@@ -4,6 +4,7 @@ import Skil from './Skil';
 import reacticon from "./assets/img/react.svg"
 import htmlicon from "./assets/img/html-5.svg"
 import cssicon from "./assets/img/css-3.svg"
+import jslogo from "./assets/img/javascript.svg"
 
 
 
@@ -24,20 +25,17 @@ function Skils() {
     skils:[
       {title:"React",
       description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit,sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
-      divStyle:{
-        backgroundImage:'reacticon',
-      }, img:reacticon},
+       img:reacticon},
+      {title:"JS",
+        description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit,sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+        img:jslogo},
 
       {title:"HTML",
       description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit,sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
-      divStyle:{
-        backgroundImage:'url("https://i.pinimg.com/564x/96/c1/ec/96c1ec8ef18a937265c8e44e40280c54.jpg")',
-      },img:htmlicon},
+      img:htmlicon},
       {title:"CSS",
       description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit,sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
-      divStyle:{
-        backgroundImage:'url("https://i.pinimg.com/236x/4a/47/7b/4a477b590ed2ab512d7f7cd8f03aa0e0.jpg")',
-      },img:cssicon}
+     img:cssicon}
     ]
   }
 

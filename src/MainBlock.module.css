@@ -3,6 +3,7 @@ min-height: 100%;
 background-color:#1f1f20;
 display:flex;
 justify-content: center;
+    padding: 80px 0;
 
 }
 
@@ -34,12 +35,7 @@ justify-content: center;
 }
 .greeting span:nth-child(1) {
     font-size: 16px;
-    /* font-weight: 800; */
-    
 }
-
-
-
  .greeting span:nth-child(2),
  .greeting span:nth-child(2) span{
     font-weight: 500;
@@ -53,13 +49,6 @@ justify-content: center;
  
 }
 .greeting span:nth-child(2) span::after{
-    /*content: "";*/
-    /*position: absolute;*/
-    /*width: 258px;*/
-    /*height: 15px;*/
-    /*background-color: #ea548d;*/
-    /*bottom: 0px;*/
-    /*z-index: -1;*/
 
     content: "";
     position: absolute;
@@ -70,22 +59,8 @@ justify-content: center;
     width: 100%;
     z-index: -1;
     background: #4e93e6;
-
-
-
 }
 
-
-/*.greeting span:nth-child(2) span::before{*/
-/*content: "";*/
-/*position: absolute;*/
-/*width: 258px;*/
-/*height: 15px;*/
-/*background-color: #ea548d;*/
-/*bottom: 0px;*/
-/*z-index: -1;*/
-
-/*}*/
 .h1 {
     font-size: 22px
 }

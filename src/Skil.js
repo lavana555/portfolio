@@ -6,9 +6,9 @@ function Skil(props) {
 
     return (
         <div className={styles.skil}>
-            {/* // style={{backgroundImage:`URL(${props.picture})`}} */}
+            {/* // style={{backgroundImage:`URL(${props.icon})`}} */}
             <div
-                // style={props.divStyle}
+                 // style={{backgroundImage:`URL(${props.icon})`}}
                 className={styles.skilHeader}>
                 <img  src={props.icon} alt=""/>
 
