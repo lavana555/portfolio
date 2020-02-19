@@ -13,13 +13,9 @@ function Footer() {
         <div className={styles.Footer}>
             <div className={styles.container}>
                 <div className={styles.blocks}>
-                    <div className={styles.block}>тимофеев никита</div>
+                    <div className={styles.block}>Тимофеев Никита</div>
                     <div className={styles.blockitems}>
-                        <div className={styles.blockitem}>
-                            <a href="#" alt="">
-                                <img className={styles.Footerimage} src={faceboo}/>
-                            </a>
-                        </div>
+
                         <div className={styles.blockitem}>
                             <a href="#" alt="">
                                 <img className={styles.Footerimage} src={linkedinIcon}/>

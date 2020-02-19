@@ -7,7 +7,7 @@ function Contacts() {
     <div className={styles.Contacts}>
       <div className={styles.container}>
         <div className={styles.contactTitle}>
-        <h2 className={styles.title}>contacts</h2>
+        <h2 className={styles.title}>Контакты</h2>
         <div className={styles.line}></div>
         </div>
       
@@ -15,7 +15,6 @@ function Contacts() {
         <input type="text" placeholder="name"/>
         <input type="text"  placeholder="E-mail"/>
         <textarea className={styles.messageArea} placeholder="Message"></textarea>
-        
         </form>
         <div>
         <button className={styles.button}>отправить</button>

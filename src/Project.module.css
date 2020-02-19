@@ -30,10 +30,11 @@ position: relative;
     top: 0;
     left: 0;
     right: 0;
-    height: 300px;
+    bottom: 0;
+    /*height: 300px;*/
     /*width: 200px;*/
     background: black;
-    opacity: 0.2;
+    opacity: 0.6;
 }
 
 .title{
@@ -51,6 +52,7 @@ position: relative;
 .description {
     display: flex;
     align-items: center;
+    margin: 0 20px 20px;
 }
 
 .imgage {
@@ -68,7 +70,7 @@ position: relative;
 
     display: block;
     font-family: M PLUS Rounded\ 1c, sans-serif;
-    font-weight: 400;
+    font-weight: 600;
     font-stretch: normal;
     font-size: 14px;
     line-height: 1.8;

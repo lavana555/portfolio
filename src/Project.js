@@ -6,8 +6,11 @@ function Project(props) {
         <div className={styles.block}>
             <div className={styles.photo} style={{backgroundImage: `URL(${props.img})`}}>
                 {/*<img className={styles.imgage}  src={props.picture} />*/}
-                <a className={styles.butn}>
+                <a className={styles.butn} href='https://lavana555.github.io/portfolio/'>
                     <button className={styles.button}>смотреть</button>
+                    <a className={styles.butn} href='https://lavana555.github.io/portfolio/'>
+                        <button className={styles.button}>код</button>
+                    </a>
                 </a>
             </div>
             <span className={styles.title}><h3>{props.title}</h3></span>
