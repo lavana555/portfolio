@@ -10,7 +10,7 @@ import githubIcon from "./assets/img/github.svg";
 
 function Footer() {
     return (
-        <div className={styles.Footer}>
+        <div id="footer" className={styles.Footer}>
             <div className={styles.container}>
                 <div className={styles.blocks}>
                     <div className={styles.block}>Тимофеев Никита</div>

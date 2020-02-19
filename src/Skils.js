@@ -67,7 +67,7 @@ const skil=state.skils.map(skil=><Skil
 
   return (
     
-    <div className={styles.Skils}>
+    <div id="skils" className={styles.Skils}>
       <div className={styles.container}>
         <div className={styles.skillname}> 
         <h2 className={styles.title}>Мои навыки</h2>

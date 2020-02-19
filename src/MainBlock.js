@@ -4,7 +4,7 @@ import styles from './MainBlock.module.css';
 
 function MainBlock() {
   return (
-    <div className={styles.MainBlock}>
+    <div id="mainBlock" className={styles.MainBlock}>
     <div className={styles.container}>
       <div className={styles.block}>
       <div className={styles.greeting}> 

@@ -19,7 +19,7 @@ let state={
 const Projectels=state.projects.map(Projectel=><Project title={Projectel.title} description={Projectel.description}  img={Projectel.picture} />)
 function Projects() {
   return (
-    <div className={styles.Projects}>
+    <div id="projects" className={styles.Projects}>
       <div className={styles.container}>
         <div className={styles.containerHeader}> 
         <h2 className={styles.title}>Мои работы</h2>

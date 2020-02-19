@@ -4,7 +4,7 @@ import styles from './Contacts.module.css';
 
 function Contacts() {
   return (
-    <div className={styles.Contacts}>
+    <div id="contacts" className={styles.Contacts}>
       <div className={styles.container}>
         <div className={styles.contactTitle}>
         <h2 className={styles.title}>Контакты</h2>

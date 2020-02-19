@@ -1,7 +1,9 @@
 .NavMenu {
-    width:300px;
+    width:500px;
 display: flex;
 justify-content: space-between;
 border: 1px solid;
 flex-wrap: wrap;
+    margin: 10px;
     }
+
