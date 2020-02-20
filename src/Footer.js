@@ -13,7 +13,7 @@ function Footer() {
         <div id="footer" className={styles.Footer}>
             <div className={styles.container}>
                 <div className={styles.blocks}>
-                    <div className={styles.block}>Тимофеев Никита</div>
+                    <div className={styles.title}>Тимофеев Никита</div>
                     <div className={styles.blockitems}>
 
                         <div className={styles.blockitem}>
