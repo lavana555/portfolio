@@ -9,7 +9,7 @@ z-index: 10;
     opacity: 0.4;
 }
 .container {
- /* border: 1px solid;  */
+  border: 1px solid;
 width:  80%;
 display:flex;
 justify-content: flex-end;

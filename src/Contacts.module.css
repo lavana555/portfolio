@@ -54,13 +54,13 @@ forms input:focus{
 
     /*outline: 2px solid #e6141f;*/
 
-input:hover, textarea:hover {
-    background-color: rgba(138, 20, 26, 0.78);
-}
+/*input:hover, textarea:hover {*/
+/*    background-color: rgba(138, 20, 26, 0.78);*/
+/*}*/
 
- .forms textarea:hover {
-    background-color: rgba(138, 20, 26, 0.78);
-}
+/* .forms textarea:hover {*/
+/*    background-color: rgba(138, 20, 26, 0.78);*/
+/*}*/
 
 .forms textarea {
     background-color: #252527;
