@@ -31,6 +31,15 @@ function Footer() {
                                 <img className={styles.Footerimage} src={telegramIcon}/>
                             </a>
                         </div>
+                        <div
+                            className={styles.blockitem}
+                        >
+                            <a href="#" alt="">
+                                <img
+                                    className={styles.Footerimage}
+                                    src={githubIcon}/>
+                            </a>
+                        </div>
 
 
                     </div>

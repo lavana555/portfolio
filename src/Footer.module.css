@@ -24,7 +24,9 @@
     width: 500px;
     display: flex;
     /* border: 1px solid; */
+
     justify-content: space-between;
+    align-items: center;
     flex-wrap: wrap;
 }
 
@@ -44,11 +46,20 @@ margin: 30px;
     margin-top: 15px;
     margin-bottom: -25px;
     opacity: 0.8;
-}
+    display: flex;
+    justify-content: center;
 
+}
+.blocks{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 .Footerimage {
-    max-width: 40px;
-    max-height: 40px;
+    width: 40px;
+    height: 40px;
     flex-wrap: wrap;
 }
 

@@ -19,13 +19,20 @@ flex-wrap: wrap;
 }
 
 .forms {
-    width: 500px;
+    /*!*width: 500px;*!*/
+    /*display: flex;*/
+    /*!* border: 1px solid; *!*/
+    /*flex-direction: column;*/
+    /*flex-wrap: wrap;*/
+    /*padding: 15px;*/
+    /*margin: 20px;*/
+
+
+
     display: flex;
-    /* border: 1px solid; */
     flex-direction: column;
-    flex-wrap: wrap;
-    padding: 15px;
-    margin: 20px;
+    width: 500px;
+    justify-content: space-around;
    
 }
 .forms input{
@@ -36,12 +43,18 @@ flex-wrap: wrap;
     border-radius: 5px;
     padding: 15px;
     color: white;
+
 }
 
-form input:focus{
+
+forms input:focus{
     /*outline: 2px solid #e6141f;*/
     outline: 2px solid #4e93e6;
 }
+
+    /*outline: 2px solid #e6141f;*/
+
+
 
 
 .forms textarea {
@@ -56,20 +69,17 @@ form input:focus{
 .forms textarea {
     margin: 0px 0px 10px;
     font-size: 16px;
-    width: 523px;
-    height: 274px;
+    /*width: 523px;*/
+    /*height: 274px;*/
     resize: none
 }
 
-form textarea:focus{
+forms textarea:focus{
     /*outline: 2px solid #e6141f;*/
     outline: 2px solid #4e93e6;
 }
 
-/*.messageArea{*/
-/*    min-height: 60px;*/
-/*    outline: none;*/
-/*}*/
+
 
 
 .SloganHeader{
@@ -153,56 +163,27 @@ display: block;
 
 
 
-/*.forms.input{*/
-/*    background-color: #252527;*/
-/*    }*/
-
-/*.forms,input,textarea{*/
-/*    background-color: #252527;*/
-/*    border: none;*/
-/*    margin-bottom: 10px;*/
-/*    border-radius: 5px;*/
-/*}*/
-
-
-
-/*.input{*/
-/*    background-color: #252527;*/
-/*    border: none;*/
-/*    margin-bottom: 10px;*/
-/*    border-radius: 5px;*/
-/*    padding: 10px;*/
-/*    color: white;*/
-/*}*/
-
-/*.textarea{*/
-/*    margin: 0px 0px 10px;*/
-/*    width: 523px;*/
-/*    height: 274px;*/
-/*    background-color: #252527;*/
-/*    border: none;*/
-/*    !*margin-bottom: 10px;*!*/
-/*    border-radius: 5px;*/
-/*    padding: 10px;*/
-/*    color: white;*/
-/*}*/
-
-.messageArea{
-    /*margin: 0px 0px 10px;*/
-    /*width: 523px;*/
-    /*height: 274px;*/
-    /*min-height: 60px;*/
-    /*outline: none;*/
-}
-
-/*.input,textarea{*/
-/*   */
-/*    margin-bottom: 10px;*/
-
-/*    }*/
-
-@media screen and (max-width:626px) {
-    .forms {
+@media screen and (max-width: 700px) {
+    .forms  {
         width: 100%;
     }
 }
+
+@media screen and (max-width: 460px) {
+    .forms   {
+        width: 80%;
+    }
+}
+
+
+/*@media screen and (max-width: 700px) {*/
+/*    .forms textarea {*/
+/*        width: 80%;*/
+/*    }*/
+/*}*/
+
+/*@media screen and (max-width: 460px) {*/
+/*    .forms textarea {*/
+/*        width: 100%;*/
+/*    }*/
+/*}*/
