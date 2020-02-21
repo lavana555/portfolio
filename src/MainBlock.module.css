@@ -61,7 +61,7 @@
     position: absolute;
     width: 100%;
     height: 20px;
-    background-color: #2cffe2;
+    background-color: #4e93e6;
     left: 0;
     right: 0;
     bottom: 0;
@@ -71,9 +71,8 @@
 
 }
 
-.h1 {
-    font-size: 22px
-}
+.greeting h1 {
+    font-size: 26px;}
 
 .photo {
     border: 1px solid;
@@ -83,7 +82,7 @@
 }
 
 .image {
-    background-color: rgb(100, 198, 237);
+    background-color: #4e93e6;
     background-image: url("https://i.pinimg.com/564x/62/18/52/6218526370390c19944e8fb4d4554176.jpg");
     width: 300px;
     height: 400px;
@@ -110,7 +109,7 @@
     height: 370px;
     width: 290px;
 
-    border: 5px solid #2cffe2;
+    border: 5px solid #4e93e6;
     left: 15px;
     top: -20px;
     z-index: -1;

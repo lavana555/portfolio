@@ -63,6 +63,7 @@
 
 .butn {
     position: relative;
+    text-decoration: none;
 }
 
 
@@ -91,6 +92,7 @@
     width: 100%;
     border: none;
     position: relative;
+
 }
 
 .button::after {

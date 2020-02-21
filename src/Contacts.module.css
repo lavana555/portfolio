@@ -33,7 +33,9 @@ flex-wrap: wrap;
     flex-direction: column;
     width: 500px;
     justify-content: space-around;
-   
+   margin-bottom: 30px;
+    margin-top: 30px
+;
 }
 .forms input{
     background-color: #252527;
@@ -52,15 +54,6 @@ forms input:focus{
     outline: 2px solid #4e93e6;
 }
 
-    /*outline: 2px solid #e6141f;*/
-
-/*input:hover, textarea:hover {*/
-/*    background-color: rgba(138, 20, 26, 0.78);*/
-/*}*/
-
-/* .forms textarea:hover {*/
-/*    background-color: rgba(138, 20, 26, 0.78);*/
-/*}*/
 
 .forms textarea {
     background-color: #252527;
@@ -75,8 +68,9 @@ forms input:focus{
     margin: 0px 0px 10px;
     font-size: 16px;
     /*width: 523px;*/
-    /*height: 274px;*/
+    height: 90px;
     resize: none
+
 }
 
 forms textarea:focus{
