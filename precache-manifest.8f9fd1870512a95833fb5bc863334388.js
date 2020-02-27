@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e010dcbb9ebe066ba426a5c105431b27",
+    "revision": "c8cbbb2324647f61421a4ef56556d1d8",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "832de5d43377814c92fe",
-    "url": "/portfolio/static/css/main.af32f33f.chunk.css"
+    "revision": "a59d04ea8dba0237949a",
+    "url": "/portfolio/static/css/main.ad2ce457.chunk.css"
   },
   {
     "revision": "80b13697293701cd7932",
@@ -16,24 +16,24 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/js/2.a1d5cbdf.chunk.js.LICENSE"
   },
   {
-    "revision": "832de5d43377814c92fe",
-    "url": "/portfolio/static/js/main.5b55dfba.chunk.js"
+    "revision": "a59d04ea8dba0237949a",
+    "url": "/portfolio/static/js/main.3d0deb6a.chunk.js"
   },
   {
     "revision": "8e33e263dd9f3af2ec21",
     "url": "/portfolio/static/js/runtime-main.c6ae4aa1.js"
   },
   {
-    "revision": "b4b6683378849bae17a0fd0342045f43",
-    "url": "/portfolio/static/media/calculator.b4b66833.png"
+    "revision": "b0736860d92684972ace3d7fcfa31370",
+    "url": "/portfolio/static/media/calc3.b0736860.png"
   },
   {
     "revision": "73004290bd51f12c2a79b17722a2d9bc",
     "url": "/portfolio/static/media/css-3.73004290.svg"
   },
   {
-    "revision": "931773c04beb538f28b2a98c4e72431d",
-    "url": "/portfolio/static/media/dogs2.931773c0.png"
+    "revision": "ea423bd633de3bb8972074dabf1d9433",
+    "url": "/portfolio/static/media/dogs4.ea423bd6.jpg"
   },
   {
     "revision": "809ea75e1f956a570fbdfa577888a469",
@@ -64,15 +64,11 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/react.eab76719.svg"
   },
   {
-    "revision": "de5a9bfb144145dee24d3b30586f6980",
-    "url": "/portfolio/static/media/schetchik.de5a9bfb.png"
-  },
-  {
     "revision": "0554b06908adee6eb05201bb040307bc",
     "url": "/portfolio/static/media/telegram.0554b069.svg"
   },
   {
-    "revision": "4b7f4666cbefe31b0a1c3e7ffd04ebec",
-    "url": "/portfolio/static/media/todolist.4b7f4666.png"
+    "revision": "4540417dc585153d2087e4333d65cd25",
+    "url": "/portfolio/static/media/todolist5.4540417d.jpg"
   }
 ]);
