@@ -9,8 +9,13 @@ flex-wrap: wrap;
     }
 
 .link{
-    text-decoration: none;
-    color:#000000;
-    letter-spacing: unset;
-    font-weight: 600;
+     text-decoration: none;
+     color:#000000;
+     letter-spacing: unset;
+     font-weight: 600;
+ }
+
+ul{
+    list-style-type: none;
+    display: contents;
 }

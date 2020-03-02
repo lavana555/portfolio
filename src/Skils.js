@@ -5,6 +5,8 @@ import reacticon from "./assets/img/react.svg"
 import htmlicon from "./assets/img/html-5.svg"
 import cssicon from "./assets/img/css-3.svg"
 import jslogo from "./assets/img/javascript.svg"
+import Roll from 'react-reveal/Roll';
+import Bounce from 'react-reveal/Bounce';
 
 
 
@@ -41,21 +43,6 @@ function Skils() {
 
 
 
-
-//  let state={
-//   skils:[
-//     {title:"React",
-//     description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit,sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
-//     picture:"https://i.pinimg.com/564x/04/34/73/0434730471b33fcf101bceb372623e75.jpg"},
-//     {title:"Redux",
-//     description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit,sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
-//     picture:"https://www.flaticon.com/<?=_('authors/')?>payungkead"},
-//     {title:"Ja native",
-//     description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit,sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
-//     picture:"https://i.pinimg.com/564x/b3/de/a4/b3dea47ed0b90cde6d027220ba093fd4.jpg"}
-//   ]
-// }
-
 const skil=state.skils.map(skil=><Skil 
   title={skil.title} 
   description={skil.description}
@@ -67,9 +54,13 @@ const skil=state.skils.map(skil=><Skil
   return (
     
     <div id="skils" className={styles.Skils}>
+      <Roll right>
       <div className={styles.container}>
-        <div className={styles.skillname}> 
+
+        <div className={styles.skillname}>
+
         <h2 className={styles.title}>Мои навыки</h2>
+
         <div className={styles.line}></div>
         </div>
         
@@ -79,7 +70,9 @@ const skil=state.skils.map(skil=><Skil
           <Skil />
           <Skil /> */}
         </div>
+
       </div>
+      </Roll>
     </div>
   );
 }

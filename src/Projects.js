@@ -5,6 +5,7 @@ import todolistLogo from "./assets/img/todolist5.jpg";
 import dogsLogo from "./assets/img/dogs4.jpg";
 import schetchiklogo from "./assets/img/counter.jpg"
 import calculatorlogo from "./assets/img/calc4.jpg"
+import Bounce from 'react-reveal/Bounce';
 
 
 
@@ -24,8 +25,10 @@ function Projects() {
   return (
     <div id="projects" className={styles.Projects}>
       <div className={styles.container}>
-        <div className={styles.containerHeader}> 
+        <div className={styles.containerHeader}>
+          <Bounce top>
         <h2 className={styles.title}>Мои работы</h2>
+            </Bounce>
         <div className={styles.line}></div>
         </div>
         <div className={styles.blocks}> 

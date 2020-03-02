@@ -66,6 +66,11 @@
 
 }
 
+.photo:hover{
+    filter: blur(3px);
+
+}
+
 .butn {
     position: relative;
     text-decoration: none;
