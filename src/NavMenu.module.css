@@ -10,4 +10,7 @@ flex-wrap: wrap;
 
 .link{
     text-decoration: none;
+    color:#000000;
+    letter-spacing: unset;
+    font-weight: 600;
 }

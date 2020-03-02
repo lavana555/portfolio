@@ -24,17 +24,16 @@ function Skils() {
   let state={
     skils:[
       {title:"React",
-      description:"React makes it painless to create interactive UIs. Design simple views for each state in your application, and React will efficiently update and render just the right components when your data changes.",
+      description:"React Redux, Redux Thunk,Redux Form,Promises,Flux Cycle,HOC,REST API",
        img:reacticon},
       {title:"JS",
-        description:"JavaScript (JS) is a lightweight, interpreted, or just-in-time compiled programming language with first-class functions. While it is most well-known as the scripting language for Web pages, many non-browser environments ",
+        description:"Javascript ES6, OOP,using Javascript to write logic,uderstanding the structure of the virtula DOM ",
         img:jslogo},
-
       {title:"HTML",
-      description:"is the standard markup language for documents designed to be displayed in a web browser. It can be assisted by technologies such as Cascading Style Sheets (CSS) and scripting languages such as JavaScript.",
+      description:"HTML5 knowledge and use of basic tags,attributes,using html to create any block on the site ",
       img:htmlicon},
       {title:"CSS",
-      description:"is a style sheet language used for describing the presentation of a document written in a markup language like HTML.[1] CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.[2]",
+      description:"CSS3,css-modules,flex-box understanding of the model and ability to fully use,using various libraries ",
      img:cssicon}
     ]
   }

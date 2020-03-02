@@ -1,19 +1,22 @@
 import React from 'react';
 import styles from './Progects.module.css';
 import Project from './Project';
-import todolistLogo from "./assets/img/todolist.png";
-import dogsLogo from "./assets/img/dogs2.png";
-import schetchiklogo from "./assets/img/schetchik.png"
+import todolistLogo from "./assets/img/todolist5.jpg";
+import dogsLogo from "./assets/img/dogs4.jpg";
+import schetchiklogo from "./assets/img/counter.jpg"
+import calculatorlogo from "./assets/img/calc4.jpg"
+
 
 
 
 let state={
   projects:[
-    {title:"todolist", description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit,sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+    {title:"todolist", description:"React/React-Redux,API/Ajax/Axios,Redux-thunk",
     picture:todolistLogo},
-    {title:"dogs", description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit,sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+    {title:"dogs game", description:"React,Redux,HTML,CSS",
       picture:dogsLogo},
-    {title:"counter",description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit,sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",picture:schetchiklogo}
+    {title:"counter",description:"React,Redux,HTML,CSS",picture:schetchiklogo},
+    {title:"calculator",description:"React,Redux,HTML,CSS",picture:calculatorlogo}
   ]
 }
 const Projectels=state.projects.map(Projectel=><Project title={Projectel.title} description={Projectel.description}  img={Projectel.picture} />)

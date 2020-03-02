@@ -75,7 +75,7 @@
     font-size: 26px;}
 
 .photo {
-    border: 1px solid;
+    /*border: 1px solid;*/
     margin-top: 50px;
     position: relative;
     z-index: 1;
