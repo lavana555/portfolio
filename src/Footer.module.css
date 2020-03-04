@@ -78,8 +78,8 @@ margin: 30px;
 
 .Footerimage:hover{
 
-    transform: scale(1.4,1.4);
-    transition: 755ms;
+    transform: scale(1.6,1.6);
+    transition: 500ms;
 
 }
 

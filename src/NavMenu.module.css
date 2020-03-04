@@ -13,9 +13,37 @@ flex-wrap: wrap;
      color:#000000;
      letter-spacing: unset;
      font-weight: 600;
+    cursor: pointer;
  }
 
 ul{
     list-style-type: none;
     display: contents;
+}
+
+
+.link:hover{
+
+    transform: scale(1.4,1.4);
+    transition: 755ms;
+
+}
+.link:hover::before {
+    width: 100%;
+}
+
+.link::before {
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: -4px;
+    width: 0;
+    height: 1px;
+    background: #ffffff;
+    transition: width .25s;
+}
+
+
+.active::before {
+    width: 100%;
 }

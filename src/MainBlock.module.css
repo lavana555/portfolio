@@ -74,6 +74,12 @@
 .greeting h1 {
     font-size: 26px;}
 
+
+.greeting:hover{
+    transform: scale(1.2,1.2);
+    transition: 755ms;
+}
+
 .photo {
     /*border: 1px solid;*/
     margin-top: 50px;
