@@ -12,14 +12,22 @@ function MainBlock() {
         <span>привет  </span>
         <span> я  Никита <span>Тимофеев</span> </span>
        <h1> Я front-end developer</h1>
+          {/*<div className={styles.phot0before}>*/}
           </Slide>
         </div>
 
+
+          <div className={styles.photobefore}>
+          <Slide top>
       <div className={styles.photo}>
-          <Slide right>
+
 <div className={styles.image}></div>
-          </Slide>
+
 </div>
+
+      </Slide>
+      </div>
+
 
       </div>
 
