@@ -9,13 +9,12 @@
     align-items: center;
     background-size: cover;
     margin-bottom: 50px;
-    /*height: max-content;*/
-/*position: relative;*/
+    position: relative;
+
 }
 
 
 .photo {
-    /*height: 250px;*/
     height: 100%;
     display: flex;
     justify-content: center;
@@ -26,54 +25,83 @@
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    /*z-index:-1;*/
+    z-index: 1;
+
 }
 
-.photo::before{
+.photo::before {
     content: "";
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
-    /*height: 300px;*/
-    /*width: 200px;*/
     background: black;
     opacity: 0.6;
+
 }
 
-.title{
-    /*text-transform: uppercase;*/
+.photo:hover{
+    position: relative;
+    filter: blur(5px);
+
+ }
+
+.buttonbefore  {
+    content: "";
+    width: 50%;
+    top: 15%;
+    left: 25%;
+    /*margin-right: -50%;*/
+    position: absolute;
+    z-index:55555;
+}
+
+
+
+
+.title {
     margin: 50px 0 30px;
     font-size: 18px;
     font-weight: 700;
     line-height: 1.2;
-    /*font-family: 'Montserrat',sans-serif;*/
-    /*font-family: 'Josefin Sans', sans-serif;*/
 }
-
 
 
 .description {
     display: flex;
     align-items: center;
+
     margin: 0 20px 20px;
-}
-
-.imgage {
-    position: absolute;
-    max-width: 300px;
-
-}
-
-.photo:hover{
-    filter: blur(3px);
+    position: relative;
+    width: 25em;
+    white-space: nowrap;
+    overflow: hidden;
+    -webkit-animation: type 5s steps(40, end);
+    animation: type 5s steps(40, end);
 
 }
+
+
+@keyframes type {
+    from {
+        width: 0;
+    }
+}
+
+@-webkit-keyframes type {
+    from {
+        width: 0;
+    }
+}
+
+
+
 
 .butn {
-    position: relative;
+
     text-decoration: none;
+    z-index:22222;
 }
 
 
@@ -96,7 +124,7 @@
     color: #fff;
     max-width: 170px;
     margin: 15px auto;
-    z-index: 0;
+    z-index: 22222;
     text-align: center;
     border-radius: 0;
     width: 100%;
@@ -115,6 +143,7 @@
     width: 50%;
     background: #4e93e6;
     z-index: -1;
+
     -webkit-transition: all .2s ease-in-out 0s;
     transition: all .2s ease-in-out 0s;
     margin: 0 auto;
@@ -132,5 +161,12 @@
         width: 100%
     }
 }
+
+
+
+
+
+
+
 
 

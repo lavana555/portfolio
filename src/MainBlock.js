@@ -9,8 +9,8 @@ function MainBlock() {
       <div className={styles.block}>
       <div className={styles.greeting}>
       <Slide left>
-        <span>привет  </span>
-        <span> я  Никита <span>Тимофеев</span> </span>
+        <span >привет  </span>
+        <span > я  Никита <span>Тимофеев</span> </span>
        <h1> Я front-end developer</h1>
           {/*<div className={styles.phot0before}>*/}
           </Slide>
@@ -19,9 +19,11 @@ function MainBlock() {
 
           <div className={styles.photobefore}>
           <Slide top>
-      <div className={styles.photo}>
+      <div className={styles.photo} >
 
-<div className={styles.image}></div>
+<div className={styles.image}
+     // style={{backgroundImage: `URL(${props.img})`}}
+></div>
 
 </div>
 

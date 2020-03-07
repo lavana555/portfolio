@@ -80,6 +80,23 @@
     transition: 755ms;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .photo {
     /*border: 1px solid;*/
     margin-top: 50px;
@@ -95,11 +112,13 @@
 
 .image {
     background-color: #4e93e6;
-    background-image: url("https://i.pinimg.com/564x/62/18/52/6218526370390c19944e8fb4d4554176.jpg");
+    background-image: url("https://instagram.fhel5-1.fna.fbcdn.net/v/t51.2885-15/e35/s1080x1080/71027220_439810513310915_1117345521579983985_n.jpg?_nc_ht=instagram.fhel5-1.fna.fbcdn.net&_nc_cat=111&_nc_ohc=5g9xynIX-AgAX_W6ZXR&oh=c2df2b04e36f1f89b8428c01c1b515ae&oe=5E95F7F6");
     width: 300px;
     height: 400px;
     position: relative;
-
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
      /*z-index: 999;*/
 }
 

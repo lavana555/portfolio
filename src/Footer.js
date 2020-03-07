@@ -17,12 +17,12 @@ function Footer() {
                     <div className={styles.blockitems}>
 
                         <div className={styles.blockitem}>
-                            <a href="#" alt="">
+                            <a href="https://www.linkedin.com/in/nikita-timofeev-8499971a2/" alt="">
                                 <img className={styles.Footerimage} src={linkedinIcon}/>
                             </a>
                         </div>
                         <div className={styles.blockitem}>
-                            <a href="#" alt="">
+                            <a href="https://www.instagram.com/nikitimofeev/" alt="">
                                 <img className={styles.Footerimage} src={instagramIcon}/>
                             </a>
                         </div>
@@ -34,7 +34,7 @@ function Footer() {
                         <div
                             className={styles.blockitem}
                         >
-                            <a href="#" alt="">
+                            <a href="https://github.com/lavana555" alt="">
                                 <img
                                     className={styles.Footerimage}
                                     src={githubIcon}/>
