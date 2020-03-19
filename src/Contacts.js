@@ -36,13 +36,15 @@ class Contacts extends React.Component {
   
   clickForm=()=>{
     // alert([this.state.name,this.state.email,this.state.description])
-    axios.post("https://smtp-portfolio-server.herokuapp.com/sendMessage",{
-      name:this.state.name,
-      email:this.state.email,
-      description:this.state.description
-    }).then(()=>alert("your message has been send"))
+     axios.post("https://smtp-portfolio-server.herokuapp.com/sendMessage",{
+    //    axios.post("http://localhost:3010/sendMessage",{
+        name:this.state.name,
+        email:this.state.email,
+        description:this.state.description
+      }).then(()=>alert("your message has been send"))
+    }
 
-  }
+
 
   render() {
 
