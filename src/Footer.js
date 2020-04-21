@@ -27,7 +27,7 @@ function Footer() {
                             </a>
                         </div>
                         <div className={styles.blockitem}>
-                            <a href="#" alt="">
+                            <a href="https://t.me/gabinby" alt="">
                                 <img className={styles.Footerimage} src={telegramIcon}/>
                             </a>
                         </div>
